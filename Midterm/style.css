@@ -1,0 +1,117 @@
+body {
+    font-family: 'Graduate', serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #ffffff;
+    background-color: #740001;
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+  text-justify: inter-word;
+}
+
+  .navbar-custom {
+    background-color: #0e1a40;
+  }
+  
+.header {
+        
+        background: url("https://i.pinimg.com/originals/a1/77/df/a177dfc84703c31afa0d501ccf43fe4f.gif");
+        background-size: 85rem; 
+        background-repeat: no-repeat;
+        background-position: center center; 
+        text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em rgb(255, 0, 106);
+        font-family: 'VT323', monospace;
+
+    }
+em{
+    font-size: 25px;
+    color: #ffc500;
+    font-style: normal;
+}
+.contact{
+         background-color: #740001;
+         display: flex;
+         justify-content: center;
+         align-items: center; 
+         padding: 20px;
+  }
+  .contact a{
+      margin: 5px;
+  }
+  .contact img{
+      width: 30px; 
+      height: auto;
+  }
+    .icon{
+    border-radius: 50%;
+}
+   .container-fluid {
+    display: flex;
+  }
+
+  .left-column {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .right-column {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+b{
+    color: #740001;
+}
+
+  .email-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #740001; 
+    background-color: #fff;
+    border-style: groove;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+  }
+
+  .email-button:hover {
+    background-color: #ffc500; 
+    color: #740001; 
+  }
+
+#projects {
+    background-color: #ffc500;
+    padding: 60px 0;
+}
+
+
+.card {
+    background-color: #0e1a40; 
+    color: #fff; 
+    transition: background-color 0.3s; 
+}
+
+
+.card:hover {
+    background-color: #740001; 
+}
+
+
+.card-title{
+    color: #ffc500;
+}
+.card-text {
+    color: #fff; 
+}
+
+#projects h2 {
+    text-align: center;
+}
+
+.card-title,
+.card-text {
+    margin-bottom: 0.5rem;
+}
+
+
