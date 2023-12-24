@@ -1,0 +1,71 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-image: url(./ABCD.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: lavender;
+    color: rgb(86, 9, 138);
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.button-link:hover {
+    background-color: #a57dff; /* Adjust the color on hover if needed */
+}
+
+.login_stuff{
+    font-weight: bolder;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height:420px;
+    color: black;
+    background-color:rgba(255, 255, 255, 0.747) ;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    border-radius: 5%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgba(130, 77, 179, 0.685);
+}
+
+
+
+.login_content input{
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+.button{
+    margin-top:2% ;
+background: #7906c56b;
+border: none;
+border-radius: 12%;
+padding: 2%;
+}
+button:hover{
+    background-color: rgba(226, 162, 43, 0.637);
+}
+.error{
+    background:#F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+}
+#mess{
+    display: block;
+    margin: none;
+    padding: 40px;
+}
